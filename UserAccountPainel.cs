@@ -10,21 +10,28 @@ namespace ATM_App
     {
         public void MainPainel()
         {
-            Console.WriteLine("Choose your option: ");
-            Console.WriteLine("\n\t1 Cash Availability\n\t2 Transactions historic\n\t3 Withdraw\n\t4 Exit");
-            int op = Convert.ToInt32(Console.ReadLine());
-            switch (op)
+            int op = 0;
+            do
             {
-                case 1:
-                    
-                    break;
-                case 2:
-                    
-                    break;
-                case 4:
-                    Console.WriteLine("Bye!");
-                    break;
-            }
+                Console.WriteLine("Choose your option: ");
+                Console.WriteLine("\n\t1 Cash Availability\n\t2 Transactions historic\n\t3 Withdraw\n\t4 Exit");
+                op = Convert.ToInt32(Console.ReadLine());
+                switch (op)
+                {
+                    case 1:
+
+                        break;
+                    case 2:
+
+                        break;
+                    case 3:
+
+                        break;
+                    case 4:
+                        Console.WriteLine("Bye!");
+                        break;
+                }
+            } while (op != 4);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace ATM_App
     {
         static void Main(string[] args) 
         {
-            MainDisplay.Login();
+            MainLoginDisplay.Login();
         }
     }
 }

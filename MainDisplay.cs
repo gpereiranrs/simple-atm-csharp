@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ATM_App
 {
-    public class MainDisplay
+    public class MainLoginDisplay
     {
         public static void PinValidation()
         {
