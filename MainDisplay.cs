@@ -11,46 +11,50 @@ namespace ATM_App
     {
         public static void PinValidation()
         {
-            Console.WriteLine("Hi, what is your account PIN");
-            int i = 3;
-            while (i > 0)
+            Console.WriteLine("Confirm your PIN password: ");
+            string PinAccount = Console.ReadLine();
+            if (PinAccount == "1234")
             {
-                string PinAccount = Console.ReadLine();
-                    if (PinAccount == "1234")
-                    {
-                        Login();
-                    break;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Wrong PIN");
-                    }
-                i--;              
+                //implement account painel
             }
-    }
+            else
+            {
+                Console.WriteLine("Wrong PIN\n");
+            }
+        }
+
         public static void Login()
         {
-            Console.WriteLine("Choose your option: ");
-            Console.WriteLine("\n\t1 Credit Card\n\t2 Debit Card\n\t3 Exit");
-            int op = Convert.ToInt32(Console.ReadLine());
-            switch(op)
+            int op = 0;
+            do
             {
-                case 1:
-                    ATMCard c1 = new ATMCard();
-                    Console.WriteLine("Insert the current data: ");
-                    c1.CardData();
-                    c1.CardValidation();
-                    break;
-                case 2:
-                    ATMCard c2 = new ATMCard();
-                    Console.WriteLine("Insert the current data: ");
-                    c2.CardData();
-                    c2.CardValidation();
-                    break;
-                case 3:
-                    Console.WriteLine("Bye!");
-                    break;
-            }
+                Console.WriteLine("Choose your option: ");
+                Console.WriteLine("\n\t1 Credit Card\n\t2 Debit Card\n\t3 Exit");
+                op = Convert.ToInt32(Console.ReadLine());
+                switch (op)
+                {
+                    case 1:
+                        ATMCard creditClient = new ATMCard();
+                        Console.WriteLine("Insert the current data: ");
+                        creditClient.CardData();
+                        creditClient.CardValidation();
+                        PinValidation();
+                        break;
+                    case 2:
+                        ATMCard debitClient = new ATMCard();
+                        Console.WriteLine("Insert the current data: ");
+                        debitClient.CardData();
+                        debitClient.CardValidation();
+                        PinValidation();
+                        break;
+                    case 3:
+                        Console.WriteLine("Bye!");
+                        break;
+                    default:
+                        Console.WriteLine("Wrong option");
+                        break;
+                }
+            } while (op != 3);
         }
     }
 }
