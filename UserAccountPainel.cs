@@ -10,6 +10,7 @@ namespace ATM_App
     {
         public void MainPainel()
         {
+            CashAvailable client = new CashAvailable();
             int op = 0;
             do
             {
@@ -19,7 +20,7 @@ namespace ATM_App
                 switch (op)
                 {
                     case 1:
-
+                        client.ShowCash(100.10);
                         break;
                     case 2:
 
