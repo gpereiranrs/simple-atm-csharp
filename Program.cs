@@ -10,11 +10,7 @@ namespace ATM_App
     {
         static void Main(string[] args) 
         {
-            ATMCardValidate client1 = new ATMCardValidate();
-            client1.clientName = "Gabriel";
-            client1.cardNumber = new string[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10" };
-            client1.validationCardYear = 2016;
-            client1.CardValidation(client1.cardNumber, client1.validationCardYear);
+            MainDisplay.PinValidation();
         }
     }
 }

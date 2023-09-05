@@ -6,19 +6,33 @@ using System.Threading.Tasks;
 
 namespace ATM_App
 {
-    public class ATMCardValidate
+    public class ATMCard
     {
-        public string clientName {  get; set; }
-        public string[] cardNumber { get; set; }
-        public int validationCardYear { get; set; }
+        public string ClientName {  get; set; }
+        public string[] CardNumber { get; set; }
+        public int ValidationCardYear { get; set; }
 
-        public void CardValidation(string[] cardNumber, int cardYear)
+        public void CardData()
         {
-            if (cardNumber.GetLength(0) == 10)
+            Console.Write("What is your name? ");
+            this.ClientName = Console.ReadLine();
+
+            this.CardNumber = new string[10];
+            Console.WriteLine("Insert your Card Number:");
+            for (int i = 0; i < CardNumber.Length; i++)
             {
-                if (cardYear > 2013 && cardYear < 2023)
+                CardNumber[i] = Console.ReadLine();
+            }
+            Console.WriteLine("Insert your Card Year:");
+            this.ValidationCardYear = Convert.ToInt32(Console.ReadLine());
+        }
+        public void CardValidation()
+        {
+            if (this.CardNumber.GetLength(0) == 10)
+            {
+                if (this.ValidationCardYear > 2013 && this.ValidationCardYear < 2023)
                 {
-                    Console.WriteLine($"Welcome, {clientName}");
+                    Console.WriteLine($"Welcome, {ClientName}");
                 }
                 else
                 {
