@@ -1,0 +1,14 @@
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\bin\Debug\net6.0\ATM_App.exe
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\bin\Debug\net6.0\ATM_App.deps.json
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\bin\Debug\net6.0\ATM_App.runtimeconfig.json
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\bin\Debug\net6.0\ATM_App.dll
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\bin\Debug\net6.0\ATM_App.pdb
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ATM_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ATM_App.AssemblyInfoInputs.cache
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ATM_App.AssemblyInfo.cs
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ATM_App.csproj.CoreCompileInputs.cache
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ATM_App.dll
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\refint\ATM_App.dll
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ATM_App.pdb
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ATM_App.genruntimeconfig.cache
+C:\Users\gpere\OneDrive\Área de Trabalho\CSharp\projects\atm-simples\ATM_App\ATM_App\obj\Debug\net6.0\ref\ATM_App.dll
